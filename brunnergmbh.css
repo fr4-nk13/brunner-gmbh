@@ -1,0 +1,245 @@
+@charset "utf-8";
+body {
+	margin-bottom: 10;
+}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#center {
+	margin:auto;
+	width: 1024px;
+	height: 724px;
+}
+#Container {
+	position:relative;
+	left: 0px;
+	top:0px;
+	width:1024px;
+	height:724px;
+	z-index:1;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #33C;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.Ueberschrift2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000;
+	line-height: normal;
+}
+#Navigation {
+	position:absolute;
+	width:160;
+	height:1px;
+	z-index:8;
+	left: 1px;
+	top: 173px;
+}
+
+#Lehrling_Logo {
+	position:absolute;
+	width:160;
+	height:1px;
+	z-index:8;
+	left:19px;
+	top:518px;
+	border:0;
+}
+
+#SVS_Logo {
+	position:absolute;
+	width:160;
+	height:1px;
+	z-index:8;
+	left:19px;
+	top:778px;
+	border:0;
+}
+
+#VAKB_Logo {
+	position:absolute;
+	width:160;
+	height:1px;
+	z-index:8;
+	left:19px;
+	top:688px;
+	border:0;
+}
+
+#zertifizierung {
+	position:absolute;
+	max-width:170px;
+	height:1px;
+	z-index:8;
+	left:0px;
+	top:374px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #009;
+	padding-right: 5px;
+	text-align: center;
+	line-height: 15px;
+}
+
+
+#logo_text_li_o {
+	position:absolute;
+	width:444px;
+	height:24px;
+	z-index:2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	color: #F00;
+	left: 4px;
+	top: 60px;
+}
+
+#logo_text_li_o2 {
+	position:absolute;
+	width:295px;
+	height:24px;
+	z-index:2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	color: #F00;
+	left: 63px;
+	top: 86px;
+}
+#logo_firma {
+	position:absolute;
+	width:387px;
+	height:40px;
+	z-index:3;
+	left: 524px;
+	top: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	color: #009;
+}
+Logo_Firma {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #009;
+}
+#logo_text_firma {
+	position:absolute;
+	width:360px;
+	height:24px;
+	z-index:2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #009;
+	left: 521px;
+	top: 60px;
+	font-size: 20px;
+}
+#titel_text {
+	position:absolute;
+	width:1025px;
+	height:20px;
+	z-index:4;
+	top: 127px;
+}
+.titel_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFF;
+	background-color: #009;
+}
+
+
+#Inhalt {
+	position:absolute;
+	width:810px;
+	height:321px;
+	z-index:6;
+	left: 210px;
+	top: 173px;
+}
+
+.seitentitel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #F00;
+	padding-right: 5px;
+	margin-bottom: 5px;
+
+}
+
+.untertitel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #009;
+	padding-right: 5px;
+}
+
+.bodytext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #009;
+	padding-right: 5px;
+	text-align: left;
+	line-height: 15px;
+}
+
+.gratulationImg {width: 40%; padding-right: 20px; padding-top: 4px;}
+.gratulationTxt {width: 60%;}
+.productContainer{position: relative; width: 252px; height: 252px;}
+.productImg {position: absolute; left: 0; top: 0; width: 100%; height: 100%; margin-right: 20px;}
+.productContainer:hover {cursor: pointer; opacity: 0.7;}
+.lupe {position: absolute;right: 0;bottom: 0; height: 33px;}
+
+
+/*Slideshow Styles*/
+.slideshowContainer {position:fixed; padding:0; margin:0; top:0; left:0; width: 100%; height: 100%;background:rgba(0,0,0,0.7); z-index: 2; display: none;}
+.close{color: white;font-size: 50px; position: absolute; right: 45px; top: 15px; z-index: 3;}
+.close:hover, .next:hover, .prev:hover {opacity: 0.5; cursor: pointer;}
+.next, .prev {position: absolute; font-size: 60px; top: 48%; color: white; z-index: 3;}
+.next {right: 20px;}
+.prev {left: 20px;}
+.slide {height: 100%; position: relative}
+.slide img {margin: auto; position: absolute; top: 0; left: 0; bottom: 0; right: 0; max-width: 800px; max-height: 700px;}
+
+a.videoLink:link, a.videoLink:visited {text-decoration: none; color: white;}
